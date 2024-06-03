@@ -1,4 +1,8 @@
-#particles-js {
+.body {
+    background: linear-gradient(to right, #1A1859, #000000);
+  }
+  
+  #particles-js {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -9,7 +13,10 @@
   }
 
 .border-active {
-    border: 4px solid #3DDC16;
+    border: 2px solid;
+    border-image: linear-gradient(to right, #1A1859, #fff) 1;
+    border-radius: 15px;
+    padding: 5px;
 }
 
 .color-dark {
